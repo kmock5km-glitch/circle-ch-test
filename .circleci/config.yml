@@ -11,7 +11,7 @@ jobs:
           key: v1-dependencies-(( checksum 'package.json'))
 
       - run:
-          comand: npm install
+          command: npm install
       - save_cache:
           key: v1-dependencies-(( checksum 'package.json'))
           paths:
